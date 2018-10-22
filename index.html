@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>fullpage-test</title>
+	<link rel="stylesheet" href="./fullpage.js/dist/fullpage.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+	<script src="//at.alicdn.com/t/font_867865_9hh4v4qco9c.js"></script>
+</head>
+<body>
+		<ul id="myMenu">
+			<li data-menuanchor="firstPage" class="active"><a href="#firstPage">首页</a></li>
+			<li data-menuanchor="secondPage"><a href="#secondPage">专业技能</a></li>
+			<li data-menuanchor="thirdPage"><a href="#thirdPage">项目经验</a></li>
+			<li data-menuanchor="fourthPage"><a href="#fourthPage">个人信息</a></li>
+		</ul>
+	<div id="fullpage">
+		<div class="section" id="page1">
+			<section class="introduce">
+				<div class="image ">
+					<img src="./photo/photo-1.jpg" alt="头像" width="165" height="165">
+				</div>
+				<h1>张宇丰</h1>
+				<h3>求职岗位：前端工程师</h3>
+				<ul class="contact">
+					<li>
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-email1"></use>
+						</svg>
+						<span>262829233@qq.com</span>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-location"></use>
+						</svg>
+						<span>深圳</span>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-age"></use>
+						</svg>
+						<span>1991</span>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-github"></use>
+						</svg>
+						<span><a href="http://github.com/zyfneverforget">链接</a></span>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<div class="section" id="page2">
+			<ul class="skillList">
+				<li>
+					<p>HTML</p>
+					<div class="progress">
+						<div class="progressBar first"></div>
+					</div>
+				</li>
+				<li>
+					<p>CSS</p>
+					<div class="progress">
+						<div class="progressBar second"></div>
+					</div>
+				</li>
+				<li>
+					<p>Javascript</p>
+					<div class="progress">
+						<div class="progressBar third"></div>
+					</div>
+				</li>
+				<li>
+					<p>jQuery</p>
+					<div class="progress">
+						<div class="progressBar four"></div>
+					</div>
+				</li>
+				<li>
+					<p>Vue</p>
+					<div class="progress">
+						<div class="progressBar five"></div>
+					</div>
+				</li>
+				<li>
+					<p>小程序</p>
+					<div class="progress">
+						<div class="progressBar six"></div>
+					</div>
+				</li>
+				<li>
+					<p>Webpack</p>
+					<div class="progress">
+						<div class="progressBar seven"></div>
+					</div>
+				</li>
+				<li>
+					<p>node.js</p>
+					<div class="progress">
+						<div class="progressBar eight"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="section" id="page3">
+			<div class="slide">
+				<div class="projectWrapper">
+					<div class="project1">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-icon--"></use>
+						</svg>
+						<h1>简易canvas画板</h1>
+						<p>项目描述：该项目使用原生的 Javascript 和 Canvas 的 API 实现了基本画板的功能，包括不同颜色线条，橡皮擦，删除，保存。</p>
+						<div class="preview"><a href="https://zyfneverforget.github.io/demo-canvas/">点击预览</a></div>
+					</div>
+					<div class="project2">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-daohang"></use>
+						</svg>
+						<h1>导航网站</h1>
+						<p>项目描述：该项目是使用原生 Javascript 开发的键盘导航网站，可自定义键盘所对应的网址，敲一下键盘就可直接打开相应的网页。</p>
+						<div class="preview"><a href="https://zyfneverforget.github.io/demo-nav/">点击预览</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="projectWrapper">
+					<div class="project3">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-vuejs"></use>
+						</svg>
+						<h1>Vue重构有赞商城</h1>
+						<p>项目描述：该项目使用原生的 Javascript 和 Canvas 的 API 实现了基本画板的功能，包括不同颜色线条，橡皮擦，删除，保存。</p>
+						<div class="preview"><a href=" http://www.zhangyf.club/dist">点击预览</a></div>
+					</div>
+					<div class="project3">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-xiaochengxu"></use>
+						</svg>
+						<h1>小程序翻译</h1>
+						<p>项目描述：该项目使用原生的 Javascript 和 Canvas 的 API 实现了基本画板的功能，包括不同颜色线条，橡皮擦，删除，保存。</p>
+						<div class="preview click">点击预览</div>
+						<div class="qr">
+							<img class="qrImage" src="./photo/mini.jpg" alt="">
+						</div>
+						<div class="cancel">
+							<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-fork"></use>
+								</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="slide">
+
+			</div>
+			<div class="slide"> 
+			</div> -->
+		</div>
+		<div class="section" id="page4">
+			<div class="info">
+				<section class="basicInfo">
+					<h1>基本信息</h1>
+					<ul class="infoList">
+						<li>
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zhuanye"></use>
+							</svg>
+							<span>电气工程及其自动化</span>
+					</li>
+						<li>
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-71"></use>
+							</svg>
+							<span>华南理工大学广州学院</span>
+						</li>
+						<li>
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-boshimao1"></use>
+							</svg>
+							<span>本科</span>
+						</li>
+					</ul>
+				</section>
+				<section class="experience">
+					<h1>工作经历</h1>
+					<p>2015 年 7 月至 2016 年 4 月 校招进入深圳南玻伟光导电膜有限责任公司</p>
+					<p>2016 年 5 月至 2017 年 12 月 就职于深圳易能电气技术股份有限公司担任技术支持工程师</p>
+					<p>2018 年 1 月至今 自学前端</p>
+				</section>
+			</div>
+			<div class="downloadPDF">
+				<a href="./photo/CV.pdf" target="_blank" download>点击下载PDF简历</a>
+			</div>
+		</div>
+	</div>
+	<script src="./node_modules/jquery-3.3.1.min.js"></script>
+	<script src="./node_modules/fullpage.js/dist/fullpage.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
