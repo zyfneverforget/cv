@@ -54,10 +54,15 @@ body{
 .introduce h1{
 	margin: 15px 0;
 }
-.introduce .image img{
-	border-radius: 20%;
+.introduce .image  {
+	border-radius: 25%;
+	height: 165px;
+	width: 114px;
+	margin: auto;
+	background: url(./photo/photo-1.jpg) no-repeat center ;
+	background-size: contain;
 }
-.introduce .image img:hover{
+.introduce .image:hover{
 	transform: translateY(-5px);
 	transition: .5s;
 	box-shadow: 0 0 5px 5px rgba(204,204,204,.7);

@@ -13,7 +13,6 @@ new fullpage('#fullpage', {
 	afterLoad: function(origin, destination){
 		if(destination.index===0){
 			$('.image').addClass('animated tada delay-0.5s')
-			console.log('安排')
 		} else if(destination.index===1){
 			$('.skillList').addClass('show animated zoomIn delay-0.3s')
 		} else if(destination.index===2){
